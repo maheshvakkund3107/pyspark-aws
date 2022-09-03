@@ -1,0 +1,14 @@
+Step 1 : Pip install the aws cli to connect to AWS using the CLI.
+pip install awscli
+
+Step 2: Configure the IAM user created from the console in awscli.
+aws configure
+aws configure --profile maheshaws
+Provide the key id and the access key.
+
+Step 3: Get the buckets.
+aws s3 ls
+aws s3 ls --profile maheshaws
+
+Path for the config files.
+/Users/maheshvakkund/.aws
