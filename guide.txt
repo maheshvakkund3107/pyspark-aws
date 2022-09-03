@@ -12,3 +12,8 @@ aws s3 ls --profile maheshaws
 
 Path for the config files.
 /Users/maheshvakkund/.aws
+
+python3 -m venv de-venv - to create the virtual venv.
+source de-venv/bin/activate - to activate the virtual env.
+
+
